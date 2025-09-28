@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Motivation - Bridging Young Minds</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #ffecd2, #fcb69f);
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    header {
+      background: linear-gradient(135deg, #ff512f, #dd2476);
+      color: white;
+      padding: 30px;
+      text-align: center;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      animation: slideDown 1s ease-in-out;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    .container {
+      padding: 30px;
+    }
+
+    h2 {
+      color: #333;
+      text-align: center;
+      margin: 20px 0;
+      font-size: 1.8rem;
+      animation: fadeInUp 1.2s ease-in-out;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin: 20px 0;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+      animation: zoomIn 1.3s ease-in-out;
+    }
+
+    .card:hover {
+      transform: translateY(-10px) scale(1.05);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+
+    .btn {
+      display: inline-block;
+      background: linear-gradient(135deg, #ff512f, #dd2476);
+      color: white;
+      padding: 12px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: linear-gradient(135deg, #dd2476, #ff512f);
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #333;
+      color: white;
+      margin-top: 30px;
+    }
+
+    /* Animations */
+    @keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
+    @keyframes fadeInUp { from {transform: translateY(30px); opacity: 0;} to {transform: translateY(0); opacity: 1;} }
+    @keyframes slideDown { from {transform: translateY(-50px); opacity: 0;} to {transform: translateY(0); opacity: 1;} }
+    @keyframes zoomIn { from {transform: scale(0.8); opacity: 0;} to {transform: scale(1); opacity: 1;} }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>💡 Motivation Zone</h1>
+    <p>Inspiring Stories, Quotes, Tips & More for Your Bright Future 🌟</p>
+  </header>
+
+  <div class="container">
+    <!-- Success Stories -->
+    <h2>✨ Success Stories</h2>
+    <div class="card-grid">
+      <div class="card"><h3>👩‍⚕️ From Village to Doctor</h3><p>A rural student worked hard, cleared NEET, and became a doctor serving her village.</p></div>
+      <div class="card"><h3>👷 First Engineer in Family</h3><p>With scholarships, a farmer’s son became the first engineer in his family.</p></div>
+      <div class="card"><h3>🧑‍🏫 Teacher of Tomorrow</h3><p>A girl from a small town pursued B.Ed. and now inspires hundreds of kids as a teacher.</p></div>
+      <div class="card"><h3>💻 IT Success Story</h3><p>A boy from a government school studied computer science and now works in an MNC abroad.</p></div>
+      <div class="card"><h3>⚽ Sports Champion</h3><p>A student followed his passion for football and now represents the state team.</p></div>
+      <div class="card"><h3>🎨 Artist in the Making</h3><p>With creativity and dedication, a village girl became a professional designer.</p></div>
+    </div>
+
+    <!-- Motivational Quotes -->
+    <h2>🌟 Motivational Quotes</h2>
+    <div class="card-grid">
+      <div class="card"><p>“Education is the most powerful weapon which you can use to change the world.” – Nelson Mandela</p></div>
+      <div class="card"><p>“Your struggle today builds your success tomorrow.”</p></div>
+      <div class="card"><p>“Dream big, start small, but begin.”</p></div>
+      <div class="card"><p>“Failure is the stepping stone to success.”</p></div>
+      <div class="card"><p>“Believe you can and you’re halfway there.” – Theodore Roosevelt</p></div>
+      <div class="card"><p>“Don’t watch the clock; do what it does. Keep going.” – Sam Levenson</p></div>
+    </div>
+
+    <!-- Study Tips -->
+    <h2>📘 Study Tips for Students</h2>
+    <div class="card-grid">
+      <div class="card"><h3>⏰ Time Management</h3><p>Plan your day. Study for short intervals and take small breaks.</p></div>
+      <div class="card"><h3>📝 Practice</h3><p>Revise daily. Solve sample papers to improve confidence.</p></div>
+      <div class="card"><h3>💤 Rest</h3><p>Good sleep keeps your brain active and fresh for learning.</p></div>
+      <div class="card"><h3>🤝 Ask for Help</h3><p>Never hesitate to ask teachers or friends when in doubt.</p></div>
+    </div>
+
+    <!-- Hobbies & Talents -->
+    <h2>🎶 Hobbies & Talents Matter</h2>
+    <div class="card-grid">
+      <div class="card"><h3>🎤 Music</h3><p>Singing or playing instruments can reduce stress and build confidence.</p></div>
+      <div class="card"><h3>🎨 Drawing & Painting</h3><p>Art improves creativity and helps express your emotions.</p></div>
+      <div class="card"><h3>🏃 Sports</h3><p>Sports not only keep you healthy but also teach teamwork & discipline.</p></div>
+      <div class="card"><h3>📖 Reading</h3><p>Books improve imagination, vocabulary, and knowledge.</p></div>
+    </div>
+
+    <!-- Career Inspiration -->
+    <h2>🚀 Famous People Who Started Small</h2>
+    <div class="card-grid">
+      <div class="card"><h3>🌌 Dr. A.P.J. Abdul Kalam</h3><p>Started from Rameswaram, became the Missile Man & President of India.</p></div>
+      <div class="card"><h3>📚 Dr. B.R. Ambedkar</h3><p>Born in poverty, but education made him the chief architect of Indian Constitution.</p></div>
+      <div class="card"><h3>🏏 M.S. Dhoni</h3><p>A ticket collector who became India’s World Cup winning captain.</p></div>
+      <div class="card"><h3>🎬 Rajinikanth</h3><p>A bus conductor who became India’s Superstar in cinema.</p></div>
+    </div>
+
+    <p style="text-align:center; margin-top:30px;">
+      <a href="index.html" class="btn">⬅ Back to Home</a>
+    </p>
+  </div>
+
+  <footer>
+    <p>© 2025 Bridging Young Minds | Designed with ❤️ for Students</p>
+  </footer>
+</body>
+</html>
