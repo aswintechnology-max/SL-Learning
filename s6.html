@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Courses & Government Schemes - Bridging Young Minds</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    *{margin:0; padding:0; box-sizing:border-box;}
+    body{
+      font-family:'Poppins',sans-serif;
+      background: linear-gradient(135deg,#f5f7fa,#c3cfe2);
+      color:#222;
+      overflow-x:hidden;
+    }
+    header.hero{
+      text-align:center;
+      padding:60px 20px;
+      background: linear-gradient(90deg,#ff512f,#dd2476);
+      color:white;
+      border-bottom-left-radius:40px;
+      border-bottom-right-radius:40px;
+      box-shadow:0 5px 15px rgba(0,0,0,0.2);
+      animation: fadeInDown 1s ease;
+    }
+    header.hero h1{ font-size:2.5rem; margin-bottom:10px; }
+    header.hero p{ font-size:1.2rem; }
+
+    .container{padding:40px 20px; max-width:1200px; margin:auto;}
+    .card-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:25px;}
+
+    .card{
+      background:white;
+      padding:25px;
+      border-radius:20px;
+      text-align:left;
+      box-shadow:0 5px 15px rgba(0,0,0,0.2);
+      transition: transform 0.4s, box-shadow 0.4s;
+      position:relative;
+      overflow:hidden;
+      animation: fadeInUp 1s ease;
+    }
+    .card h2{
+      font-size:1.4rem;
+      margin-bottom:15px;
+      display:flex;
+      align-items:center;
+      gap:8px;
+      flex-wrap:wrap;
+    }
+    .card ul{
+      text-align:left;
+      padding-left:20px;
+      line-height:1.6;
+      font-size:0.95rem;
+    }
+    .card ul li{ margin-bottom:10px; }
+
+    .card:hover{
+      transform: translateY(-12px) scale(1.05) rotate(-1deg);
+      box-shadow:0 10px 25px rgba(0,0,0,0.3);
+    }
+    .card::before{
+      content:"✨";
+      font-size:2rem;
+      position:absolute;
+      top:-15px;
+      right:-15px;
+      animation: spin 4s linear infinite;
+      opacity:0.2;
+    }
+
+    @keyframes fadeInDown{from{opacity:0; transform:translateY(-50px);}to{opacity:1; transform:translateY(0);}}
+    @keyframes fadeInUp{from{opacity:0; transform:translateY(50px);}to{opacity:1; transform:translateY(0);}}
+    @keyframes spin{from{transform:rotate(0deg);}to{transform:rotate(360deg);}}
+    @keyframes bounce{0%,100%{transform:translateY(0);}50%{transform:translateY(-10px);}}
+
+    .btn{
+      display:inline-block;
+      margin:10px;
+      padding:12px 25px;
+      background:linear-gradient(45deg,#36d1dc,#5b86e5);
+      color:white;
+      border-radius:25px;
+      text-decoration:none;
+      font-weight:bold;
+      transition: transform 0.3s, background 0.3s;
+    }
+    .btn:hover{
+      background:linear-gradient(45deg,#5b86e5,#36d1dc);
+      transform:scale(1.1);
+    }
+
+    footer{
+      text-align:center;
+      background: linear-gradient(90deg,#ff512f,#dd2476);
+      color:white;
+      padding:20px;
+      margin-top:40px;
+      border-top-left-radius:30px;
+      border-top-right-radius:30px;
+      font-size:0.9rem;
+    }
+
+    .emoji-bounce{animation:bounce 2s infinite;display:inline-block;}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>🚀 New & Emerging Courses <span class="emoji-bounce">🎓</span></h1>
+    <p>Learn trending courses and government schemes for better opportunities 🌟</p>
+  </header>
+
+  <main class="container">
+    <section class="card-grid">
+      <!-- Emerging Courses -->
+      <div class="card">
+        <h2>🤖 AI & Data Science 🧠💻📊</h2>
+        <ul>
+          <li>Learn Artificial Intelligence, Machine Learning, Data Analytics</li>
+          <li>Career Path: Data Scientist, ML Engineer, AI Developer</li>
+          <li>Trending: Automation, Predictive Analysis, Deep Learning</li>
+          <li>Job Outlook: High demand in IT & Tech companies</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>🛡️ Cybersecurity 🔒🖥️🕵️‍♂️</h2>
+        <ul>
+          <li>Protect systems and networks from cyber attacks</li>
+          <li>Career Path: Cybersecurity Analyst, Ethical Hacker, Security Consultant</li>
+          <li>Trending: Cloud Security, Network Protection, Risk Management</li>
+          <li>Job Outlook: Growing demand in corporates & government</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>🤖 Robotics & Automation 🤖⚙️🦾</h2>
+        <ul>
+          <li>Design and build intelligent machines & automation systems</li>
+          <li>Career Path: Robotics Engineer, Automation Specialist</li>
+          <li>Trending: AI-powered robots, Industrial Automation</li>
+          <li>Job Outlook: High demand in manufacturing & research sectors</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>💡 Digital Marketing & E-commerce 🌐📱📈</h2>
+        <ul>
+          <li>Learn SEO, Social Media Marketing, Content Strategy</li>
+          <li>Career Path: Digital Marketer, Social Media Manager, SEO Expert</li>
+          <li>Trending: E-commerce growth, Influencer Marketing</li>
+          <li>Job Outlook: Expanding opportunities in startups & corporates</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>📱 App Development & IoT 🌐📡📲</h2>
+        <ul>
+          <li>Develop mobile apps, smart devices, and IoT solutions</li>
+          <li>Career Path: App Developer, IoT Engineer, Product Designer</li>
+          <li>Trending: Smart homes, wearable tech, connected devices</li>
+          <li>Job Outlook: High demand in tech & startups</li>
+        </ul>
+      </div>
+
+      <!-- Government Schemes -->
+      <div class="card">
+        <h2>🎓 Scholarships & Education Aid 💰🏛️📖</h2>
+        <ul>
+          <li>Scholarships for SC/ST, BC/MBC, Minority Students</li>
+          <li>National Skill Development Mission: Free Training Programs</li>
+          <li>Education Loan Subsidies: Low-interest loans for higher studies</li>
+          <li>Free Coaching Schemes: NEET, JEE, UPSC, and competitive exams support</li>
+        </ul>
+      </div>
+    </section>
+
+    <p style="text-align:center; margin-top:30px;">
+      <a href="after12_courses.html" class="btn">⬅ Back to After 12th Courses</a>
+      <a href="index.html" class="btn">🏠 Home</a>
+    </p>
+  </main>
+
+  <footer>
+    <p>© 2025 Bridging Young Minds | Emerging Courses & Government Schemes 🌈</p>
+  </footer>
+</body>
+</html>
