@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Careers After 12th - Bridging Young Minds</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;}
+    body{
+      font-family:'Poppins',sans-serif;
+      background: linear-gradient(135deg,#ffecd2,#fcb69f);
+      color:#222;
+      overflow-x:hidden;
+    }
+    header.hero{
+      text-align:center;
+      padding:50px 20px;
+      background: linear-gradient(90deg,#ff512f,#dd2476);
+      color:white;
+      border-bottom-left-radius:40px;
+      border-bottom-right-radius:40px;
+      box-shadow:0 5px 15px rgba(0,0,0,0.2);
+      animation: fadeInDown 1s ease;
+    }
+    header.hero h1{ font-size:2.5rem; margin-bottom:10px; }
+    header.hero p{ font-size:1.2rem; }
+
+    .container{padding:40px 20px; max-width:1200px; margin:auto;}
+    .card-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:25px;}
+
+    .card{
+      background:white;
+      padding:25px;
+      border-radius:20px;
+      text-align:left;
+      box-shadow:0 5px 15px rgba(0,0,0,0.2);
+      transition: transform 0.4s, box-shadow 0.4s;
+      position:relative;
+      overflow:hidden;
+      animation: fadeInUp 1s ease;
+    }
+    .card h2{
+      font-size:1.4rem;
+      margin-bottom:15px;
+      display:flex;
+      align-items:center;
+      gap:8px;
+      flex-wrap:wrap;
+    }
+    .card ul{
+      text-align:left;
+      padding-left:20px;
+      line-height:1.8;
+      font-size:0.95rem;
+    }
+    .card ul li{ margin-bottom:12px; }
+    .card:hover{
+      transform: translateY(-12px) scale(1.05) rotate(-1deg);
+      box-shadow:0 10px 25px rgba(0,0,0,0.3);
+    }
+    .card::before{
+      content:"🌟";
+      font-size:2rem;
+      position:absolute;
+      top:-15px;
+      right:-15px;
+      animation: spin 4s linear infinite;
+      opacity:0.2;
+    }
+
+    @keyframes fadeInDown{from{opacity:0; transform:translateY(-50px);}to{opacity:1; transform:translateY(0);}}
+    @keyframes fadeInUp{from{opacity:0; transform:translateY(50px);}to{opacity:1; transform:translateY(0);}}
+    @keyframes spin{from{transform:rotate(0deg);}to{transform:rotate(360deg);}}
+    @keyframes bounce{0%,100%{transform:translateY(0);}50%{transform:translateY(-10px);}}
+
+    .btn{
+      display:inline-block;
+      margin:10px;
+      padding:12px 25px;
+      background:linear-gradient(45deg,#36d1dc,#5b86e5);
+      color:white;
+      border-radius:25px;
+      text-decoration:none;
+      font-weight:bold;
+      transition:transform 0.3s, background 0.3s;
+    }
+    .btn:hover{background:linear-gradient(45deg,#5b86e5,#36d1dc); transform:scale(1.1);}
+
+    footer{
+      text-align:center;
+      background: linear-gradient(90deg,#ff512f,#dd2476);
+      color:white;
+      padding:20px;
+      margin-top:40px;
+      border-top-left-radius:30px;
+      border-top-right-radius:30px;
+      font-size:0.9rem;
+    }
+
+    .emoji-bounce{animation:bounce 2s infinite; display:inline-block;}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>💼 Careers After 12th <span class="emoji-bounce">🚀</span></h1>
+    <p>Explore colorful and easy career paths with icons 🌈</p>
+  </header>
+
+  <main class="container">
+    <section class="card-grid">
+
+      <!-- Science -->
+      <div class="card">
+        <h2>🔬 Science Careers 🩺💻🧪🧬✈️</h2>
+        <ul>
+          <li>🩺 Medical: MBBS, BDS, BAMS, BHMS, Nursing, Paramedical</li>
+          <li>💻 Engineering: B.E, B.Tech (IT, Computer Science, Mechanical, Civil, Electrical)</li>
+          <li>🔬 Pure Science: B.Sc (Physics, Chemistry, Biology, Mathematics)</li>
+          <li>🧬 Biotechnology & Research: Bioinformatics, Robotics, Genetics</li>
+          <li>✈️ Aviation: Pilot, Air Hostess, Aeronautical Engineering</li>
+          <li>💊 Pharmacy: Pharmacist, Lab Technician</li>
+          <li>🤖 Trending: AI, Data Science, Cybersecurity, Machine Learning</li>
+        </ul>
+      </div>
+
+      <!-- Commerce -->
+      <div class="card">
+        <h2>💰 Commerce Careers 📊🏦💼📈🪙</h2>
+        <ul>
+          <li>📊 CA, CMA, CS (Accounting & Finance)</li>
+          <li>🏦 Banking: IBPS, RBI, NABARD, Credit Analyst</li>
+          <li>💼 Business & Entrepreneurship: Startup, Business Analytics</li>
+          <li>🎓 BBA, B.Com, Economics, Finance</li>
+          <li>📈 Stock Market Analyst, Financial Planner</li>
+          <li>🪙 Trending: FinTech, Blockchain, Digital Marketing, E-commerce</li>
+        </ul>
+      </div>
+
+      <!-- Arts & Humanities -->
+      <div class="card">
+        <h2>🎨 Arts & Humanities Careers ⚖️📰🧠🎭🎪🎨</h2>
+        <ul>
+          <li>⚖️ Law: LLB / Integrated BA LLB, Paralegal</li>
+          <li>📰 Journalism & Mass Communication: Reporter, Editor, Digital Media</li>
+          <li>🧠 Psychology, Sociology, Literature, History, Political Science</li>
+          <li>🎨 Design: Fashion, Interior, Animation, Graphic Design, UI/UX</li>
+          <li>🎭 Performing Arts: Theatre, Music, Dance, Film Making</li>
+          <li>🎪 Event Management, Content Creation, Digital Arts</li>
+          <li>📚 Teaching & Academics: School/College Lecturer, Coaching</li>
+        </ul>
+      </div>
+
+      <!-- Vocational -->
+      <div class="card">
+        <h2>💻 Vocational & Skill-based Careers 🍳🎥🛠️🌾📱💡</h2>
+        <ul>
+          <li>🍳 Hotel Management, Culinary Arts, Tourism, Catering</li>
+          <li>🎥 Multimedia, Animation, Graphic & Web Design, Photography</li>
+          <li>🛠️ Electrician, Mechanic, Tailoring, Carpentry, Plumbing</li>
+          <li>🌾 Agriculture, Food Technology, Horticulture, Animal Husbandry</li>
+          <li>📱 App Development, E-commerce, Freelancing, Digital Services</li>
+          <li>💡 Entrepreneurship, Startups, Local Business Opportunities</li>
+          <li>🛍️ Retail & Marketing, Event Planning, Fashion Styling</li>
+        </ul>
+      </div>
+
+    </section>
+
+    <p style="text-align:center; margin-top:30px;">
+      <a href="after12_courses.html" class="btn">⬅ Back to Courses</a>
+      <a href="index.html" class="btn">🏠 Home</a>
+    </p>
+  </main>
+
+  <footer>
+    <p>© 2025 Bridging Young Minds | After 12th Careers 🌟</p>
+  </footer>
+</body>
+</html>
